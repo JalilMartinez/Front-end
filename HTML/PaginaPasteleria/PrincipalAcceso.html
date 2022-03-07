@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Euni Le Pasteleria 🎂</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+    
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+    
+            /* Estilo de header */
+            header {
+                background-color: rgba(161, 206, 243, 0.87);
+                background-image: url("titulo.jpg");
+                background-size: 100%;
+                background-repeat: no-repeat;
+                padding: 30px;
+                text-align: center;
+                font-size: 35px;
+                color: white;
+            }
+    
+            /* Crear 2 columnas con la misma posición en la fila */
+            nav {
+                float: left;
+                padding: 20px;
+                width: 70%;
+                background-image: url("ofertas.jpg");
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-color: #dce2d8;
+                height: 350px;
+                
+            }
+    
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+            }
+    
+            article {
+                float: left;
+                width: 30%;
+                height: 350px;
+                /* only for demonstration, should be removed */
+                
+                background: rgb(220, 164, 80);
+                background-image: url("images.jpg");
+                background-size: 100%;
+                background-repeat: no-repeat;
+                padding: 10px;
+            }
+    
+            /* Clear floats after the columns */
+            section::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+    
+            /* Estilo de footer */
+            footer {
+                background-color: #777;
+                padding: 10px;
+                text-align: center;
+                color: white;
+            }
+    
+            /* Responsive layout */
+            @media (max-width: 600px) {
+    
+                nav,
+                article {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        </style>
+    </head>
+    
+</head>
+<body>
+    <!-- Headings -->
+    <header>
+        <font color="#0C1B78", size= 50 >
+            <h2 align="center">🥳 Euni 
+                <img src="Logo/Logo estetico.png"
+                width="140  "
+                height="120 ">&nbsp;&nbsp;🎂</h2>
+            
+        </font>
+        
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <font color= "red", size = 10>
+                    <h1 align="center">¡Ofertas!</h1>
+                </font>
+                <font color= "#808000", size = 10>
+                    <p align="center" >JUEVES DE 2X1 😱</p>
+                </font>
+                
+            </ul>
+        </nav>
+
+        <article>
+            <font size = 4>
+                <h1 align="center">Ingresar a su cuenta 😁</h1>
+            </font>
+            <!-- ingrsa correo -->
+            <label for="correo1">Ingrese su Correo</label><br>
+            <input type="email" id="correo1" name="correo1"><br><br>
+            <!-- ingrsa contraseña -->
+            <label for="psw1">Ingrese su Contraseña </label><br>
+            <input type="password" id="psw1" name="psw1"><br><br>
+            <font size = 2.5>
+                <h2 align="center">Si aun no tienes cuenta con nostros regístrese en el siguiente vinculo 😃</h2>
+            </font>
+            <li align="center"><a href="#">Registrar</a></li>
+            
+        </article>
+    </section>
+
+    <!-- Parrafos -->
+    <p>Los pasteles mostrados pueden variar un poco el color dependiendo del dispotivo donde se vea, por favor
+        verifique bien el color y los elementos de su orden.</p>
+</body>
+</html>

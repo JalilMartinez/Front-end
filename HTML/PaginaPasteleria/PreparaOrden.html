@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Euni Pasteleria 🎂</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+    
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+    
+            /* Estilo de header */
+            header {
+                background-color: rgba(161, 206, 243, 0.87);
+                background-image: url("titulo.jpg");
+                background-size: 100%;
+                background-repeat: no-repeat;
+                padding: 30px;
+                background-image: url("Logo/Logo\ estetico.png");
+                background-size: 32%;
+                background-position-x: 12cm;
+                background-repeat: no-repeat;
+                padding: 30px;
+                text-align: center;
+                font-size: 35px;
+                color: white;
+            }
+    
+            /* Crear 2 columnas con la misma posición en la fila */
+            nav {
+                float: left;
+                padding: 20px;
+                width: 70%;
+                background-image: url("ofertas.jpg");
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-color: #dce2d8;
+                height: 350px;
+                
+            }
+    
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+            }
+    
+            article {
+                float: left;
+                width: 30%;
+                height: 350px;
+                /* only for demonstration, should be removed */
+                
+                background: rgb(220, 164, 80);
+                background-image: url("images.jpg");
+                background-size: 100%;
+                background-repeat: no-repeat;
+                padding: 10px;
+            }
+    
+            /* Clear floats after the columns */
+            section::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+    
+            /* Estilo de footer */
+            footer {
+                background-color: #777;
+                padding: 10px;
+                text-align: center;
+                color: white;
+            }
+    
+            /* Responsive layout */
+            @media (max-width: 600px) {
+    
+                nav,
+                article {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        </style>
+    </head>
+    
+</head>
+<body>
+    <!-- Headings -->
+    <header>
+        <font color="#04DF83 ", size= 50 >
+            <h2 align="center">¡Ha llegado la hora de preparar tu pastel! 🎂😄</h2>
+        </font>
+    </header>
+    <section>
+        <h2>Selecciona</h2>
+        <centering>
+        <label for="tacos"> <h1 align="center">Qué sabor de pastel quiere?🤤</h1></label></centering>
+        <br>
+            <img src="supremo-chocolate-.jpg"
+                width="270"
+                height="200">&nbsp;&nbsp;
+            <img src="rerinafresaweb8.jpg"
+                width="300"
+                height="200">
+    
+            <img src="treslechescondurazno-5.jpg"
+                width="270"
+                height="200">&nbsp;&nbsp;
+            <img src="frutas.jpg"
+                width="270"
+                height="200">&nbsp;&nbsp;
+            <img src="images.jpg"
+                width="270"
+                height="200">&nbsp;&nbsp;
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" id="topping1" name="topping1" value="Chocolate">
+            <label for="topping1">
+                De Cocolate
+            </label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;       
+            <input type="checkbox" id="topping2" name="topping2" value="MermeladaFresa">
+            <label for="topping2">De Fresa</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" id="topping3" name="topping3" value="Chantilly">
+            <label for="topping3">Con chantilly</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" id="topping4" name="topping4" value="fruta">
+            <label for="topping3">De Fruta</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           
+            <input type="checkbox" id="topping5" name="topping5" value="pastelespecial">
+            <label for="topping3">Especial de la casa</label>
+            <br>
+
+    </section>
+
+    <!-- Parrafos -->
+    <p>Los pasteles mostrados pueden variar un poco el color dependiendo del dispotivo donde se vea, por favor
+        verifique bien el color y los elementos de su orden.</p>
+</body>
+</html>
